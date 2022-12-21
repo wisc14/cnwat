@@ -19,6 +19,10 @@ body{
     position: relative;
     justify-content: flex-end;
     margin-bottom: 100px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.topright{
     
 }
 .top>img{
