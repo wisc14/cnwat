@@ -1,0 +1,40 @@
+.login_box {
+    margin-bottom: 10px;
+  }
+  .login_box input {
+    padding: 7.5px 15px;
+    width: 93%;
+    border: 1px solid #cccccc;
+    outline: none;
+  }
+  
+  .login-form {
+    width: 200%;
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px double #cccccc;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: #1a9900;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .add button {
+    padding: 7.5px 50px;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #007d99;
+    border: none;
+    outline: none;
+  }
+  

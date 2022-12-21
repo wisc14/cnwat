@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Lớp</title>
+    <link rel="stylesheet" href="7.3.css" />
+    <script>
+      function checkInfo() {
+        var id = document.getElementById("malop").value;
+        var tenlop = document.getElementById("tenlop").value;
+        var khoa = document.getElementById("khoa").value;
+        var gvcn = document.getElementById("GVCN").value;
+        khoa = Number(khoa);
+        if (id.length > 6) {
+          // alert("Mã lớp không hợp lệ");
+          msg = "Mã lớp không hợp lệ";
+        } else if (Number.isInteger(khoa) === false) {
+          // alert("Khóa học phải nhập một số");
+          msg = "Khóa học không hợp lệ";
+        } else if (tenlop.length > 50) {
+          // alert("Tên lớp không hợp lệ");
+          msg = "Tên lớp không hợp lệ";
+        } else if (gvcn.length > 50) {
+          // alert("Tên gvcn không hợp lệ");
+          msg = "Tên gvcn không hợp lệ";
+        } else {
+          msg = "";
+        }
+        document.getElementById("alert").innerText = msg;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="login-form">
+      <h1>Nhập thông tin</h1>
+      <form>
+        <div class="login_box">
+          <input
+            type="text"
+            id="malop"
+            name="malop"
+            placeholder="Mã lớp"
+            onkeyup="checkInfo()"
+            required
+          />
+        </div>
+        <div class="login_box">
+          <input
+            type="text"
+            id="tenlop"
+            name="tenlop"
+            placeholder="Tên lớp"
+            onkeyup="checkInfo()"
+            required
+          />
+        </div>
+        <div class="login_box">
+          <input
+            type="text"
+            id="khoa"
+            name="khoa"
+            placeholder="Khóa học"
+            onkeyup="checkInfo()"
+            required
+          />
+        </div>
+        <div class="login_box">
+          <input
+            type="text"
+            id="GVCN"
+            name="GVCN"
+            placeholder="GVCN"
+            onkeyup="checkInfo()"
+            required
+          />
+        </div>
+        <div class="add">
+          <button name="submit" type="submit" onclick="checkInfo()">Add</button>
+        </div>
+        <div id="alert"></div>
+      </form>
+    </div>
+    <div>
+      <table></table>
+    </div>
+  </body>
+</html>
