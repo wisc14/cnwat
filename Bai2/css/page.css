@@ -1,0 +1,17 @@
+.left{
+    width: 20%;
+    background-color: burlywood;
+}
+.right{
+    width: 19%;
+    background-color: burlywood;
+}
+.middle{
+    width: 59%;
+    background-color: darkolivegreen;
+    
+}
+.left, .right, .middle{
+    display: inline-block;
+
+}

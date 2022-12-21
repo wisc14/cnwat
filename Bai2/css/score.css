@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+hr{
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.top{
+    display: flex;
+}
+.topLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.topLeft>h2{
+    text-align: center;
+    font-weight: normal;
+}
+.topLeft>h3{
+    text-align: center;
+    font-weight: bold
+}
+.topRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.topRight>h2{
+    text-align: center;
+    font-weight: bold
+}
+.topRight>h3{
+    text-align: center;
+    font-weight: bold
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+body>p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.afTop{
+    display: flex;
+    justify-content: space-between;
+}
+.afTopLeft{
+    width: 50%;
+    display: flex;
+}
+.afTopLeft>div>h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.afTopLeft>div>p{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.afTopRight{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.afTopRight>div>h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.afTopRight>div>p{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* table */
+
+.text-align-inherit{
+    text-align: inherit;
+}
+.text-center{
+    text-align: center;
+}
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td,
+th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+text-align: center;
+}
+th{
+    text-align: center;
+}
+
+table {
+width: 70%;
+margin: 20px auto;
+}

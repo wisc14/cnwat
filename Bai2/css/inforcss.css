@@ -1,0 +1,109 @@
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    h3{
+        font-family: ' Sniglet', sans-serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    li,p{
+        font-family: ' Sniglet', sans-serif;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    nav{
+        display: flex;
+        height: 80px;
+        background-color: aquamarine;
+        margin-bottom: 50px;
+    }
+    .name{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .name h2{
+        font-family: ' Sniglet', sans-serif;
+    }
+    .rightNav{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 100px;
+    }
+    .rightNav p{
+        margin-right: 20px;
+        font-family: ' Sniglet', sans-serif;
+        cursor: pointer;
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    .rightNav p:hover{
+        font-weight: 800;
+    }
+    /* main */
+    .main{
+        display: flex;
+        margin-left: 15%;
+        min-width: 500p;
+    }
+    .leftMain{
+        position: relative;
+        width: 30%;
+        padding-left: 20px;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: aquamarine;
+        padding: 40px;
+        margin-right: 50px;
+        padding-bottom: 0px;
+    }
+    .leftMain ul{
+        padding-left: 20px;
+    }
+    .leftMain button{
+        position: absolute;
+        font-size: 20px;
+        padding: 5px;
+        width: 60%;
+        left: 20%;
+        bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(88, 109, 246);
+        color: rgb(247, 239, 239);
+    }
+    .leftMain button:hover{
+        background-color: rgb(69, 35, 161);
+        color: rgb(255, 228, 228);
+    }
+    .rightMain{
+        width: 50%;
+        height: auto;
+        
+    }
+    .rihrghtMain h2{
+        font-family: ' Sniglet', sans-serif;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .rightMain-information{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .rightMain-information img{
+        width: 25%;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+    .rightMain-information ul{
+        padding-left: 20px;
+    }
